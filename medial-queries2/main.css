@@ -1,3 +1,35 @@
 body {
   background: papayawhip;
+  text-align: center;
+  font-size: 5em;
 }
+
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .a{
+  flex-grow: 1;
+ }
+ .b{
+  min-height: 65vh;
+ }
+ .cde{
+  display: flex;
+  justify-content: space-between;
+  
+ }
+ .c{
+  flex-grow: 1;
+ }
+ .d{
+  flex-grow: 1;
+ }
+ .e{
+  flex-grow: 1;
+ }
+ .f{
+  flex-grow: 2;
+ }
